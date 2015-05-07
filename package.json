@@ -1,0 +1,22 @@
+{
+  "name": "@atsushi_suzuki/gulp-tsconfig",
+  "version": "0.0.1",
+  "description": "generate tsconfig.json by gulp",
+  "keywords": [
+    "gulp",
+    "typescript",
+    "tsconfig.json"
+  ],
+  "author": "Atsushi Suzuki",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtsushiSuzuki/gulp-tsconfig.git"
+  },
+  "main": "lib/tsconfig.js",
+  "dependencies": {
+    "event-stream": "^3.3.1",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  }
+}
