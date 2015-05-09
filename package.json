@@ -1,9 +1,10 @@
 {
   "name": "@atsushi_suzuki/gulp-tsconfig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generate tsconfig.json by gulp",
   "keywords": [
     "gulp",
+    "gulpplugin",
     "typescript",
     "tsconfig.json"
   ],
@@ -18,5 +19,9 @@
     "event-stream": "^3.3.1",
     "gulp-util": "^3.0.4",
     "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "vinyl": "^0.4.6",
+    "mocha": "^2.2.4"
   }
 }

@@ -2,7 +2,7 @@
 
 `gulp-tsconfig` generates `tsconfig.json` used by typescript.
 
-## usage
+## example
 
 In `Gulpfile.js`:
 
@@ -18,3 +18,15 @@ gulp.task('tsconfig', function () {
 		.pipe(gulp.dest('.'));
 });
 ```
+
+## usage
+
+### tsconfig([options])
+
+Returns gulp plugin (file object stream) that generates
+`tsconfig.json` with property `files` for each input files.
+
+If input file is `tsconfig.json`, the file is treated as source config and `files` is overwriten.
+
+- options.filename [string] - specify config file name. defaults to `tsconfig.json`
+- options.config [object] - specify default `tsconfig.json` configuration values. defaults to `{}`.
