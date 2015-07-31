@@ -1,6 +1,6 @@
 {
   "name": "@atsushi_suzuki/gulp-tsconfig",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generate tsconfig.json by gulp",
   "keywords": [
     "gulp",
@@ -17,11 +17,11 @@
   "main": "lib/tsconfig.js",
   "dependencies": {
     "event-stream": "^3.3.1",
-    "gulp-util": "^3.0.4",
-    "through2": "^0.6.5"
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
   },
   "devDependencies": {
-    "vinyl": "^0.4.6",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.5",
+    "vinyl": "^0.5.0"
   }
 }
